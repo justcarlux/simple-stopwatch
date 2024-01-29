@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Simple Stopwatch</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+	<div id="container">
+		<div id="stopwatch">
+			<div id="main">
+				<div id="time">00:00:00:00</div>
+				<div id="buttons">
+					<button id="toggle" class="blue-button">Start</button>
+					<button id="restart" class="blue-button" disabled>Restart</button>
+					<button id="flag" class="blue-button" disabled>Flag</button>
+				</div>
+			</div>
+			<div id="flags-list">
+				<ol>
+					<div id="placeholder">Flags will appear here. Double click to delete them.</div>
+				</ol>
+			</div>
+		</div>
+	</div>
+	<script src="./js/script.js"></script>
+</body>
+
+</html>
